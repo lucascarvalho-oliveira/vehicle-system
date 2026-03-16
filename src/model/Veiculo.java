@@ -20,7 +20,7 @@ public class Veiculo {
         if(ano < 1900){
             throw new IllegalArgumentException("Ano invalido.");
         }
-        if(cavalos < 0){
+        if(cavalos <=  0){
             throw new IllegalArgumentException("Cilindrada incorreta.");
         }
 
