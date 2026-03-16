@@ -10,7 +10,7 @@ public class Carro extends Veiculo{
 
         super(placa, tipo, marca, ano, cavalos);
 
-        if(quantidadePortas < 0){
+        if(quantidadePortas <= 0){
             throw new IllegalArgumentException("Numero de portas invalida.");
         }
         if(quantidadeBancos < 0){
