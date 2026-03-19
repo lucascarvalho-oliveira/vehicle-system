@@ -54,13 +54,13 @@ vehicle-system/
 
 ## Como Executar o Projeto
 
-1.	Clone o repositório:
+1.	Clone o repositório:<br>
 `git clone https://github.com/lucascarvalho-oliveira/vehicle-system.git`
-2. Acesse a pasta do projeto:
+2. Acesse a pasta do projeto:<br>
 `cd vehicle-system`
-3. Compile o projeto:
+3. Compile o projeto:<br>
 `javac src/app/Main.java`
-4. Execute
+4. Execute<br>
 `java src.app.Main`
 
 ## Conceitos Aplicados
